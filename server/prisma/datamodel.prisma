@@ -1,0 +1,8 @@
+type Report {
+  id: ID! @id
+  status: String!
+  notes: String!
+  exercise: Int!
+  food: String!
+  social: String!
+}

@@ -1,0 +1,23 @@
+
+type Query {
+  info: String!
+  feed: [Report!]
+}
+
+type Mutation {
+  post(authorId: ID,
+  status: String!
+  notes: String!
+  exercise: Int!
+  food: String!
+  social: String!) : Report!
+}
+
+type Report {
+  id: ID!
+  status: String!
+  notes: String!
+  exercise: Int!
+  food: String!
+  social: String!
+}
